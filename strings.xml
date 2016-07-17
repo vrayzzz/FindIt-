@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="songslist">
+        <item>Siren</item>
+        <item>BirthDay Bash</item>
+        <item>Nokia_Lumia 1020</item>
+        <item>LG Optimus Black</item>
+
+    </string-array>
+</resources>

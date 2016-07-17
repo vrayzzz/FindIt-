@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/white4">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate"
+        android:id="@+id/button2"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="De-Activate"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:id="@+id/button3"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="98dp"
+        android:layout_marginEnd="98dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/icon3"
+        android:layout_alignParentTop="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIND IT!"
+        android:textColor="#905430"
+        android:textSize="40dp"
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:textColorHighlight="@android:color/black"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

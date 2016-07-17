@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vrayz.finalproject" >
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon3"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".secondactivity"
+            android:label="@string/app_name">
+            <!--  android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+              <!-->
+        </activity>
+
+        <activity
+            android:name=".thirdactivity"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".fourthactivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Myservice"
+            android:label="FinalProject"/>
+
+
+
+        <activity
+            android:name=".splashscreen"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".BackgroundService"/>
+        <service android:name=".Myservice"/>
+    </application>
+
+</manifest>
